@@ -53,5 +53,3 @@ Full code is provided in the `/src` folder.
 - 'OakOLED-master'
 - `ESP8266WiFi` (built-in)
 
-```cpp
-// Main file: Wireless_Pulse_Oximeter.ino
