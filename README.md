@@ -31,7 +31,7 @@ The device is completely wireless, battery-powered, and displays real-time readi
 | Switch, wires, etc.| For power and enclosure                                                     |
 
 ## Circuit Diagram
-![Circuit Diagram](https://github.com/johndoe/Wireless-Pulse-Oximeter-ESP8266-MAX30100/raw/main/images/circuit_diagram.png)
+![Circuit Diagram](https://github.com/NidheeSal/Wireless-Pulse-Oximeter-ESP8266-MAX30100/raw/main/images/circuit_diagram.png)
 *(See `/circuit` folder for high-resolution image and Fritzing file)*
 
 ### Pin Connections
