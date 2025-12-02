@@ -44,7 +44,7 @@ The device is completely wireless, battery-powered, and displays real-time readi
 > Note: Both MAX30100 and OLED share the same I²C bus (SDA → D2, SCL → D1).
 
 ## Arduino Code
-Full code is provided in the `/src` folder.
+Full code is provided in the `Wireless_Pulse_Oximeter.ino` file.
 
 **Libraries Required** (install via Library Manager):
 - `Adafruit-GFX-Library-master` 
