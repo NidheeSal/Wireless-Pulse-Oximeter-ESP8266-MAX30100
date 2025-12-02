@@ -140,3 +140,4 @@ void getSendData()
   display.print("%");
  display.display(); 
 }
+
