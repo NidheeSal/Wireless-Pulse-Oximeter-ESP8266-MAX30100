@@ -47,9 +47,10 @@ The device is completely wireless, battery-powered, and displays real-time readi
 Full code is provided in the `/src` folder.
 
 **Libraries Required** (install via Library Manager):
-- `MAX30100_PulseOximeter` by OXullo Intersec
-- `Adafruit_GFX`
-- `Adafruit_SSD1306`
+- `Adafruit-GFX-Library-master` 
+- `Arduino-MAX30100-master`
+- `blynk-library-master`
+- 'OakOLED-master'
 - `ESP8266WiFi` (built-in)
 
 ```cpp
