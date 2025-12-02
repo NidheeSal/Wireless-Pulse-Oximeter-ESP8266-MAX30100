@@ -32,7 +32,6 @@ The device is completely wireless, battery-powered, and displays real-time readi
 
 ## Circuit Diagram
 ![Circuit Diagram](circuit_diagram.png)
-*(See `/circuit` folder for high-resolution image and Fritzing file)*
 
 ### Pin Connections
 | MAX30100 / OLED | ESP8266 (NodeMCU) |
