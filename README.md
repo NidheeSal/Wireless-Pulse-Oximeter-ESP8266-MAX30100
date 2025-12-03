@@ -49,7 +49,7 @@ All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the
 ![Circuit Diagram](circuit_diagram.png)
 
 ### NodeMCU v2 (LoLin) Pin Diagram
-[![NodeMCU v2 Pinout](https://github.com/YOUR_USERNAME/YOUR_REPO/raw/main/images/nodemcu-v2-pinout.jpg)]
+[![NodeMCU v2 Pinout](NodeMCU_v2_pinout.webp)]
 
 ### Photo of Actual Build 
 ![Real build photo](build.jpeg)
