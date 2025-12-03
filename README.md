@@ -53,7 +53,7 @@ All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the
 
 
 **Libraries Required** (install via Library Manager):
-- `Adafruit-GFX-Library-master` 
+- [`Adafruit-GFX-Library-master`](https://github.com/adafruit/Adafruit-GFX-Library.git)) 
 - `Arduino-MAX30100-master`
 - `blynk-library-master`
 - 'OakOLED-master'
