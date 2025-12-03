@@ -30,21 +30,27 @@ The device is completely wireless, battery-powered, and displays real-time readi
 | Resistors          | 4.7kΩ pull-ups for I²C (sometimes required)                                |
 | Switch, wires, etc.| For power and enclosure                                                     |
 
-## Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
-
 ### Pin Connections
-| MAX30100 / OLED | ESP8266 (NodeMCU) |
-|-----------------|-------------------|
-| VCC             | 3.3 V             |
-| GND             | GND               |
-| SDA             | D2 (GPIO-4)       |
-| SCL             | D1 (GPIO-5)       |
+### Connection Table
+
+| MAX30100 Pin | OLED Pin | NodeMCU Pin | Description          |
+|--------------|----------|-------------|----------------------|
+| VIN          |          | 3V3         | Power (3.3V)         |
+| GND          | GND (1)  | GND         | Ground               |
+| SCL          | SCL (4)  | D1 (GPIO 5) | I²C Clock            |
+| SDA          | SDA (3)  | D2 (GPIO 4) | I²C Data             |
+|              | VCC (2)  | 3V3         | OLED Power           |
+
+All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the NodeMCU.
 
 > Note: Both MAX30100 and OLED share the same I²C bus (SDA → D2, SCL → D1).
 
-## Arduino Code
-Full code is provided in the `Wireless_Pulse_Oximeter.ino` file.
+## Circuit Diagram
+![Circuit Diagram](circuit_diagram.png)
+
+### Photo of Actual Build (optional – add your own)
+![Real build photo](./images/build.jpg)
+
 
 **Libraries Required** (install via Library Manager):
 - `Adafruit-GFX-Library-master` 
@@ -52,4 +58,9 @@ Full code is provided in the `Wireless_Pulse_Oximeter.ino` file.
 - `blynk-library-master`
 - 'OakOLED-master'
 - `ESP8266WiFi` (built-in)
+
+## Arduino Code
+Full Arduino sketch → [`Wireless_Pulse_Oximeter.ino`](src/Wireless_Pulse_Oximeter.ino)
+
+(Just click the file above to view or download the code)
 
