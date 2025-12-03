@@ -60,7 +60,7 @@ All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the
 - `ESP8266WiFi` (built-in)
 
 ## Arduino Code
-Full Arduino sketch → [`Wireless_Pulse_Oximeter.ino`](src/Wireless_Pulse_Oximeter.ino)
+Full Arduino sketch → [`Wireless_Pulse_Oximeter.ino`](Wireless_Pulse_Oximeter.ino)
 
 (Just click the file above to view or download the code)
 
