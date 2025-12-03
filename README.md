@@ -49,7 +49,7 @@ All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the
 ![Circuit Diagram](circuit_diagram.png)
 
 ### Photo of Actual Build (optional – add your own)
-![Real build photo](./images/build.jpg)
+![Real build photo](build.jpeg)
 
 
 **Libraries Required** (install via Library Manager):
