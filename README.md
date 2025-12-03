@@ -58,8 +58,8 @@ All devices share the same I²C bus (D1 = SCL, D2 = SDA) and 3.3V power from the
 **Libraries Required** (install via Library Manager):
 - [`Adafruit-GFX-Library-master`](https://github.com/adafruit/Adafruit-GFX-Library.git)) 
 - [`Arduino-MAX30100-master`](https://github.com/oxullo/Arduino-MAX30100.git)
-- `blynk-library-master`(https://github.com/blynkkk/blynk-library.git)
-- 'OakOLED-master'(https://github.com/netguy204/OakOLED.git)
+- [`blynk-library-master`](https://github.com/blynkkk/blynk-library.git)
+- ['OakOLED-master'](https://github.com/netguy204/OakOLED.git)
 - `ESP8266WiFi` (built-in)
 
 ## Arduino Code
